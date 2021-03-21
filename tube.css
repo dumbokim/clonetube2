@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: rgb(31, 31, 31);
+  color: rgb(228, 237, 240);
+  display: flex;
+  justify-content: space-between;
+  height: 6vh;
+  align-items: center;
+}
+button {
+  border: none;
+}
+
+#logo {
+  display: flex;
+  background-color: rgb(31, 31, 31);
+  color: azure;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+#youtube_logo {
+  font-size: 20px;
+  padding-left: 5px;
+}
+#login {
+  padding-right: 10px;
+}
+section {
+  background-color: rgb(243, 243, 243);
+}
+.video {
+  height: 35vh;
+  max-width: 480px;
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+}
+.video > iframe {
+  width: 100%;
+  height: 100%;
+}
+.titles {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+#title {
+  display: flex;
+  flex-direction: column;
+}
+#tag {
+  font-size: 13px;
+  color: rgb(86, 199, 255);
+}
+#views {
+  font-size: 12px;
+  color: gray;
+}
+#more_btn {
+  align-self: center;
+  padding-right: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  font-size: 10px;
+}
+.buttons > div {
+  display: flex;
+  flex-direction: column;
+}
+.tuber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(139, 139, 139);
+  border-bottom: 1px solid rgb(139, 139, 139);
+  height: 45px;
+}
+#profile_img {
+  border-radius: 50%;
+  padding-left: 10px;
+  height: 100%;
+}
+#name {
+}
+#name > p {
+  margin: 0;
+}
+#prof_name {
+  font-size: 20px;
+  font-weight: bolder;
+}
+#prof_subs {
+  font-size: 12px;
+}
+#subscribe {
+  background-color: rgb(243, 243, 243);
+  padding-right: 10px;
+}
+.comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(139, 139, 139);
+  padding: 10px 0;
+  padding-left: 10px;
+}
+#sort_btn {
+  padding-right: 10px;
+  background-color: rgb(243, 243, 243);
+}
+#next_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+#next_videos {
+  display: flex;
+  flex-direction: column;
+}
+#next_videos > a {
+  height: 10vh;
+  text-decoration: none;
+}
+#next_videos > a > img {
+  height: 100%;
+}
